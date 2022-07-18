@@ -1,5 +1,11 @@
+execute pathogen#infect()
+filetype plugin indent on
+
 " Sets how many lines of history VIM has to remember
 set history=500
+
+" Show line numbers
+set number
 
 " Always show current position
 set ruler
@@ -11,7 +17,7 @@ set hlsearch
 set showmatch
 
 " Enable syntax highlighting
-syntax enable
+syntax on 
 
 " Set utf8 as standard encoding and en_US as the standard language
 set encoding=utf8
